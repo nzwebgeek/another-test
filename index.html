@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <h1>Testing</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ipsum suscipit perferendis sapiente fuga! Numquam cupiditate asperiores praesentium amet porro eos architecto et fuga. Nisi dolorem in enim officiis sunt.</p>
+        <div class="container">
+            <h1>Generation Calculator</h1>
+        <form id="generationForm">
+            <label for="birthYear">Enter your birth year:</label>
+            <input type="number" id="birthYear" name="birthYear" required>
+            <button type="submit">Calculate Generation</button>
+        </form>
+            <div id="result" class="result"></div>
+            <div class="pic"></div>
+
+        </div>
+                
 </body>
 </html>
